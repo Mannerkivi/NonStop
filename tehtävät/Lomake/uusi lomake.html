@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="yes.css">
+    <script type="text/javascript" src="yes.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="keskita">
+   <form class="" action="kiitos.html" method="post" onsubmit="return tarkasta(this)" onreset="return tyhjenna(this)">
+     <h1>Tilauslomake</h1>
+     <table>
+       <tr>
+         <td>Etunimi: </td>
+         <td class="oikea"><input type="text" name="enimi" value=""></td>
+       </tr>
+       <tr>
+         <td>Sukunimi:</td>
+         <td class="oikea"><input type="text" name="snimi" value=""></td>
+       </tr>
+       <tr>
+         <td>Sähköposti:</td>
+         <td class="oikea"><input type="text" name="email" value=""></td>
+       </tr>
+     </table>
+     <p>
+       Valitse kokosi </p><p>
+         <input type="checkbox" name="boksi" value="S">S<br/>
+         <input type="checkbox" name="boksi" value="M">M<br/>
+         <input type="checkbox" name="boksi" value="L">L<br/>
+         <input type="checkbox" name="boksi" value="XL">XL<br/>
+     </p>
+<p>Valitse toinen: </p>
+  <p>
+    <input type="radio" name="valitse" value="paita" />
+    Haluan vain paidan.<br />
+    <input type="radio" name="valitse" value="molemmat" />
+    Haluan paidan ja housut.
+  </p>
+
+  <p>
+    <input type="submit" name="submit" value="Tarkasta lomake">
+    <input type="reset" name="reset" value="Tyhjennä lomake">
+  </p>
+    </form>
+  </div>
+  </body>
+</html>
